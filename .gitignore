@@ -1,0 +1,11 @@
+.env
+out/
+data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.sqlite3
+*.log
+assets/music/*.mp3
+!assets/music/.gitkeep

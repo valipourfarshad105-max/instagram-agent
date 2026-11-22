@@ -1,0 +1,83 @@
+# ══════════════════════════════════════════════════════════════════
+#  تنظیمات ایجنت اینستاگرام — برند، ویدیو، محتوا و انتشار
+#  تغییرات این فایل بدون نیاز به دست‌زدن به کد اعمال می‌شود.
+# ══════════════════════════════════════════════════════════════════
+
+brand:
+  name: "پیج من"                     # نام نمایشی روی ویدیو
+  handle: "@my.page"                 # آی‌دی اینستاگرام (روی ویدیو و در اعلان‌ها)
+  niche: "بازاریابی دیجیتال و رشد کسب‌وکار"   # حوزهٔ پیج؛ مستقیم به پرامپت مدل می‌رود
+  audience: "صاحبان کسب‌وکارهای کوچک در ایران"
+  tone: "خودمانی، صمیمی، کاربردی، بدون کلیشه و بدون ادعای بی‌پایه"
+  language: fa
+  cta: "اگر به‌کارت آمد، سیو کن و برای دوستت بفرست"
+  emoji: true                        # استفاده از ایموجی در کپشن
+
+  # موضوعاتی که ایجنت به‌صورت تصادفی از آن‌ها ایده می‌گیرد (حالت آفلاین و پیشنهاد به مدل)
+  topics:
+    - "سه اشتباه رایج در تبلیغات اینستاگرام"
+    - "چطور با یک ویدیوی ساده فروش را بالا ببریم"
+    - "تفاوت بازاریابی محتوایی و تبلیغات پولی"
+    - "قواعد طلایی کپشن‌نویسی"
+    - "چطور مخاطب را به مشتری تبدیل کنیم"
+    - "ابزارهای رایگانی که کار کسب‌وکار را راحت می‌کند"
+    - "قبل از راه‌اندازی کمپین، این ۴ چیز را چک کن"
+
+  # هشتگ‌های پایهٔ همیشه‌حاضر
+  hashtags_base: ["#بازاریابی", "#کسب_و_کار", "#اینستاگرام", "#دیجیتال_مارکتینگ"]
+
+  # کلماتی که ایجنت هرگز نباید بنویسد (فیلتر خروجی)
+  forbidden: ["تضمین فروش", "صد در صد", "معجزه"]
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  scenes: 4                # تعداد صحنه/تصویر هر ریلز (۳ تا ۶ منطقی است)
+  transition: 0.5          # ثانیه، کراس‌فید بین صحنه‌ها
+  lead_in: 0.35            # ثانیه سکوت قبل از شروع گفتار هر صحنه
+  tail_gap: 0.75           # ثانیه سکوت انتهای هر صحنه
+  ken_burns: true          # زوم آرام روی تصاویر (حس ویدیو می‌دهد)
+  max_duration: 90         # سقف طول ویدیو (ثانیه) — ریلز تا ۳ دقیقه هم مجاز است
+
+  # ---------- گفتار (نریشن) ----------
+  voice: "fa-IR-FaridNeural"     # گزینه‌ها: fa-IR-FaridNeural (مرد) | fa-IR-DilaraNeural (زن)
+  voice_rate: "+8%"              # سرعت گفتار
+  voice_volume: "+0%"
+  burn_subtitles: false          # هنوز پشتیبانی نمی‌شود (متن روی تصویر هست)
+
+  # ---------- موسیقی پس‌زمینه (اختیاری) ----------
+  bgm: ""                        # مثلاً "assets/music/bgm.mp3"
+  bgm_volume: 0.12               # نسبت به صدای گفتار
+
+  # ---------- ظاهر ----------
+  color_primary: "#7C3AED"       # بنفش
+  color_secondary: "#F59E0B"     # نارنجی/طلایی
+  font_regular: "assets/fonts/Vazirmatn-Regular.ttf"
+  font_bold: "assets/fonts/Vazirmatn-Bold.ttf"
+  font_black: "assets/fonts/Vazirmatn-Black.ttf"
+  logo: ""                       # مثلاً "assets/logo.png" (اختیاری)
+
+content:
+  text_provider: auto      # auto | gemini | openai | offline
+  image_provider: auto     # auto | gemini | openai | gradient
+  model_text: ""           # خالی = پیش‌فرض هر سرویس
+  model_image: ""
+  ideas_per_run: 1         # در هر اجرا چند پیش‌نویس بسازد
+  image_style: "cinematic editorial photography, soft studio lighting, shallow depth of field, dark moody background with a strong single accent color, high contrast, minimal composition, empty negative space at the bottom and top for text overlay, vertical 9:16 framing, absolutely no text, no letters, no watermark"
+
+publish:
+  mode: approve            # auto = بدون تأیید منتشر کن | approve = اول بگذار در داشبورد تأیید کنم
+  schedule: ["09:30", "19:00"]   # ساعت‌هایی که ایجنت در روزهای فعال اجرا می‌شود
+  days: ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+  timezone: "Asia/Tehran"
+  max_posts_per_day: 3
+  share_to_feed: true      # ریلز در فید هم دیده شود
+  first_comment: true      # هشتگ‌ها در اولین کامنت هم گذاشته شود
+  uploader: ""             # خالی = از UPLOADER در .env استفاده کن
+  retry: 3
+
+paths:
+  out: "out"               # ویدیو و فایل‌های تولیدشده
+  data: "data"             # دیتابیس و لاگ‌ها
+  db: "data/agent.sqlite3"
