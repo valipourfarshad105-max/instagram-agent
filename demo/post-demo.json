@@ -1,0 +1,67 @@
+{
+  "id": "dc2b73fb5c40",
+  "created_at": "2026-10-08T11:50:03.111104+00:00",
+  "scheduled_at": null,
+  "published_at": null,
+  "status": "pending",
+  "mode": "approve",
+  "topic": "سه اشتباه در تبلیغات اینستاگرام",
+  "title": "سه اشتباه رایج",
+  "caption": "بیا یک اشتباه رایج را با هم بررسی کنیم که خیلی از کسب‌وکارها هر روز مرتکب می‌شوند.\n\n• اول: بدون هدف پست می‌گذاری\n• دوم: فقط از خودت می‌گویی\n• سوم: پیگیری نداری\n\nنظرت چیه؟ کامنت کن.",
+  "hashtags": [
+    "#بازاریابی",
+    "#کسب_و_کار",
+    "#اینستاگرام",
+    "#دیجیتال_مارکتینگ",
+    "#سه_اشتباه_در_تبلیغات"
+  ],
+  "scenes": [
+    {
+      "index": 0,
+      "text": "یک اشتباه که فروشت را کم می‌کند",
+      "narration": "بیا یک اشتباه رایج را با هم بررسی کنیم که خیلی از کسب‌وکارها هر روز مرتکب می‌شوند.",
+      "image_prompt": "close-up of a modern desk with a smartphone and notebook, dramatic side light, dark background, purple accent glow",
+      "image_path": "/home/user/instagram-agent/out/dc2b73fb5c40/images/scene_01.jpg",
+      "overlay": ""
+    },
+    {
+      "index": 1,
+      "text": "اول: بدون هدف پست می‌گذاری",
+      "narration": "اشتباه اول این است که بدون هدف روشن پست می‌گذاری؛ این‌طوری انرژی می‌گذاری ولی نتیجه نمی‌گیری.",
+      "image_prompt": "conceptual photo of upward arrow made of light on a dark minimal surface, golden glow, shallow depth of field",
+      "image_path": "/home/user/instagram-agent/out/dc2b73fb5c40/images/scene_02.jpg",
+      "overlay": ""
+    },
+    {
+      "index": 2,
+      "text": "دوم: فقط از خودت می‌گویی",
+      "narration": "اشتباه دوم این است که فقط از خودت حرف می‌زنی؛ مخاطب دنبال حل مشکل خودش است، نه معرفی تو.",
+      "image_prompt": "person silhouette working late at a laptop in a dark room, single warm lamp, cinematic mood",
+      "image_path": "/home/user/instagram-agent/out/dc2b73fb5c40/images/scene_03.jpg",
+      "overlay": ""
+    },
+    {
+      "index": 3,
+      "text": "سوم: پیگیری نداری",
+      "narration": "و اشتباه سوم اینکه بعد از فروش پیگیری نمی‌کنی؛ حالا کدام را بیشتر انجام می‌دهی؟",
+      "image_prompt": "minimal still life of coffee cup and open planner on dark table, moody top light, soft shadows",
+      "image_path": "/home/user/instagram-agent/out/dc2b73fb5c40/images/scene_04.jpg",
+      "overlay": ""
+    }
+  ],
+  "video_path": "/home/user/instagram-agent/out/dc2b73fb5c40/reel.mp4",
+  "cover_path": "/home/user/instagram-agent/out/dc2b73fb5c40/cover.jpg",
+  "video_url": "",
+  "ig_media_id": "",
+  "error": "",
+  "meta": {
+    "provider": "offline",
+    "template": "سه اشتباه رایج",
+    "scene_durations": [
+      7.03,
+      7.51,
+      7.8,
+      6.84
+    ]
+  }
+}
